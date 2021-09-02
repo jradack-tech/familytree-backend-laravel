@@ -319,16 +319,16 @@
         },
         {
             "name": "composer/package-versions-deprecated",
-            "version": "1.11.99.2",
+            "version": "1.11.99.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/package-versions-deprecated.git",
-                "reference": "c6522afe5540d5fc46675043d3ed5a45a740b27c"
+                "reference": "fff576ac850c045158a250e7e27666e146e78d18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/package-versions-deprecated/zipball/c6522afe5540d5fc46675043d3ed5a45a740b27c",
-                "reference": "c6522afe5540d5fc46675043d3ed5a45a740b27c",
+                "url": "https://api.github.com/repos/composer/package-versions-deprecated/zipball/fff576ac850c045158a250e7e27666e146e78d18",
+                "reference": "fff576ac850c045158a250e7e27666e146e78d18",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
             "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
             "support": {
                 "issues": "https://github.com/composer/package-versions-deprecated/issues",
-                "source": "https://github.com/composer/package-versions-deprecated/tree/1.11.99.2"
+                "source": "https://github.com/composer/package-versions-deprecated/tree/1.11.99.3"
             },
             "funding": [
                 {
@@ -388,7 +388,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-24T07:46:03+00:00"
+            "time": "2021-08-17T13:49:14+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1182,21 +1182,24 @@
         },
         {
             "name": "familytree365/laravel-gedcom",
-            "version": "v3.1.0",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/familytree365/laravel-gedcom.git",
-                "reference": "76e29599988fa6750e5e65d6b9b4c538d530b18f"
+                "reference": "1d0268720738eebb8a8bcc3a2c2ef712de4e2bbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/familytree365/laravel-gedcom/zipball/76e29599988fa6750e5e65d6b9b4c538d530b18f",
-                "reference": "76e29599988fa6750e5e65d6b9b4c538d530b18f",
+                "url": "https://api.github.com/repos/familytree365/laravel-gedcom/zipball/1d0268720738eebb8a8bcc3a2c2ef712de4e2bbd",
+                "reference": "1d0268720738eebb8a8bcc3a2c2ef712de4e2bbd",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": "^3.0",
+                "doctrine/dbal": "^2.8|^3.0",
                 "familytree365/php-gedcom": "^1.0"
+            },
+            "require-dev": {
+                "rector/rector": "^0.11.49"
             },
             "type": "library",
             "extra": {
@@ -1218,7 +1221,7 @@
             "description": "A package that converts gedcom files to Eloquent models",
             "support": {
                 "issues": "https://github.com/familytree365/laravel-gedcom/issues",
-                "source": "https://github.com/familytree365/laravel-gedcom/tree/v3.1.0"
+                "source": "https://github.com/familytree365/laravel-gedcom/tree/v3.2.0"
             },
             "funding": [
                 {
@@ -1226,20 +1229,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-17T21:02:28+00:00"
+            "time": "2021-08-23T16:56:07+00:00"
         },
         {
             "name": "familytree365/php-gedcom",
-            "version": "v1.3.16",
+            "version": "v1.3.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/familytree365/php-gedcom.git",
-                "reference": "99601485c19bf8fea57c8e03ceac6f982db771c8"
+                "reference": "5d6ecbf89cd57bcbcf1091468456b6b08fe349d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/familytree365/php-gedcom/zipball/99601485c19bf8fea57c8e03ceac6f982db771c8",
-                "reference": "99601485c19bf8fea57c8e03ceac6f982db771c8",
+                "url": "https://api.github.com/repos/familytree365/php-gedcom/zipball/5d6ecbf89cd57bcbcf1091468456b6b08fe349d3",
+                "reference": "5d6ecbf89cd57bcbcf1091468456b6b08fe349d3",
                 "shasum": ""
             },
             "require": {
@@ -1267,7 +1270,7 @@
             ],
             "support": {
                 "issues": "https://github.com/familytree365/php-gedcom/issues",
-                "source": "https://github.com/familytree365/php-gedcom/tree/v1.3.16"
+                "source": "https://github.com/familytree365/php-gedcom/tree/v1.3.17"
             },
             "funding": [
                 {
@@ -1275,7 +1278,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-17T22:59:49+00:00"
+            "time": "2021-07-18T19:44:46+00:00"
         },
         {
             "name": "fideloper/proxy",
