@@ -26,7 +26,7 @@
         "leifermendez/laravel-paypal-subscription": "^1.0",
         "nesbot/carbon": "^2.50",
         "phpunit/phpunit": "^9.5",
-        "predis/predis": "^1.1",
+        "predis/predis": "^2.0",
         "spatie/laravel-multitenancy": "^1.0",
         "spatie/laravel-permission": "^3.18",
         "srmklive/paypal": "~1.0"
